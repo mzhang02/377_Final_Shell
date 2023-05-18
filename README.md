@@ -38,7 +38,7 @@
     "quit" terminates the shell. It recognizes if the user has typed the four characters q, u, i, t and if so, terminates.
   4. cd directory_name:
   "cd directory_name" changes directory as per UNIX specifications. You can cd into a directory or cd out of a directory. The code checks if the second or third argument is a nullptr, and it will cd out if the second argument is a nullptr, and cd into the given directory if the third argument is a nullptr. Otherwise, it errors out. 
-  5. command1 | <command2:
+  5. command1 | command2:
   "command1 | command2" pipes the output of command1 as the input to command2.
   6. alias [-p] command_nickname = command_name: 
   alias command_nickname = command_name nicknames a command. It is a BASH builtin command that I implemented.

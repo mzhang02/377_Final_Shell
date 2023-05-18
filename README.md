@@ -30,22 +30,23 @@
   To start the trivial shell, go into the terminal and type <./tsh_app>. It will start the tsh shell and give some information on what commands are supported. Go ahead and try those commands!
   
 ## Commands Supported
-  1. General UNIX Commands
+  1. General UNIX Commands:
     The General UNIX commands are supported, (i.e. ls, mkdir). 
-  2. help
+  2. help:
     "help" displays a help message with all possible commands.
-  3. quit
+  3. quit:
     "quit" terminates the shell.
-  4. cd directory_name
+  4. cd directory_name:
   "cd directory_name" changes directory as per UNIX specifications.
-  5. command1 | <command2
+  5. command1 | <command2:
   "command1 | command2" pipes the output of command1 as the input to command2.
-  6. alias command_nickname = command_name
+  6. alias command_nickname = command_name:
   alias command_nickname = command_name nicknames a command.
-  7. celebrate
+  7. celebrate:
     "celebrate" prints out a random motivating message with emoticons!
 
 ## Design Choices
-I tried to keep all the methods for the commands in the tsh.cpp and the main function as clean as possible. For the method alias_command, it requires a privately declared map because it is a variable that is populated by the alias_command and utilized by the exec_command. 
+I tried to keep all the methods for the commands in the tsh.cpp and the main function as clean as possible. For the method alias_command, it requires a privately declared map because it is a variable that is populated by the alias_command and utilized by the exec_command. The rest of the methods are all public. I also tried to print as many helpful error messages so it would be as user friendly as possible.
 
-  
+## Resources
+The emoticons are from this website: https://www.emoticonstext.com/

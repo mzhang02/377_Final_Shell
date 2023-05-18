@@ -10,7 +10,7 @@
   The link to the demo is here: https://youtu.be/PLr8uByotac
 
 ## Header Files
-  Here are the header files used:
+  Here are the header files used: <br>
   #include tsh.h <br>
   #include iostream <br>
   #include stdio.h <br>
@@ -41,7 +41,7 @@
   5. command1 | <command2:
   "command1 | command2" pipes the output of command1 as the input to command2.
   6. alias command_nickname = command_name:
-  alias command_nickname = command_name nicknames a command.
+  alias command_nickname = command_name nicknames a command. It is a BASH builtin command that I implemented.
   7. celebrate:
     "celebrate" prints out a random motivating message with emoticons!
 

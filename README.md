@@ -7,7 +7,7 @@
   The project is an extension of the P2: Shell project from Spring 2023 semester. It is a trivial shell, made by Miranda Zhang, for the CS377 final project.
 
 ## Demo
-  The link to the demo is here: https://youtu.be/PLr8uByotac
+  The link to the demo is here: https://drive.google.com/file/d/19CkkydH8hwxLEK47_z1B8tsIPTAGA7hv/view?usp=sharing
 
 ## Header Files
   Here are the header files used: <br>

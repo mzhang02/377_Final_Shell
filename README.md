@@ -36,12 +36,12 @@
     "help" displays a help message with all possible commands.
   3. quit
     "quit" terminates the shell.
-  4. cd <directory_name>
-  cd <directory_name> changes directory as per UNIX specifications.
-  5. <command1> | <command2>
-  <command1> | <command2 pipes the output of command1 as the input to command2.
-  6. alias <command_nickname> = <command_name>
-  alias <command_nickname> = <command_name> nicknames a command.
+  4. cd directory_name
+  "cd directory_name" changes directory as per UNIX specifications.
+  5. command1 | <command2
+  "command1 | command2" pipes the output of command1 as the input to command2.
+  6. alias command_nickname = command_name
+  alias command_nickname = command_name nicknames a command.
   7. celebrate
     "celebrate" prints out a random motivating message with emoticons!
 

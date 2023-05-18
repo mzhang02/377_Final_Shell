@@ -21,7 +21,7 @@
   #include ctime <br>
 
 ## Files
-  I have edited the following files:
+  I have edited the following files:<br>
   main_tsh.cpp <br>
   tsh.cpp <br>
   tsh.h <br>

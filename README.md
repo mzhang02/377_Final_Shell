@@ -46,6 +46,6 @@
     "celebrate" prints out a random motivating message with emoticons!
 
 ## Design Choices
-    I tried to keep all the methods for the commands in the tsh.cpp and the main function as clean as possible. For the method alias_command, it requires a privately declared map because it is a variable that is populated by the alias_command and utilized by the exec_command. 
+I tried to keep all the methods for the commands in the tsh.cpp and the main function as clean as possible. For the method alias_command, it requires a privately declared map because it is a variable that is populated by the alias_command and utilized by the exec_command. 
 
   

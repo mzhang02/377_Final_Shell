@@ -41,7 +41,7 @@
   5. command1 | command2:
   "command1 | command2" pipes the output of command1 as the input to command2.
   6. alias [-p] command_nickname = command_name: 
-  alias command_nickname = command_name nicknames a command. It is a BASH builtin command that I implemented.
+  alias command_nickname = command_name nicknames a command. It is a BASH builtin command that I implemented. It uses the '=' character to tokenize the two names. It uses a map to store the nickname and name pairs, and exec_command calls it and also executes the nicknamed commands.
   7. celebrate:
     "celebrate" prints out a random motivating message with emoticons! Congrats on finishing this semester. 
 
